@@ -188,3 +188,54 @@ footer small {
 footer p {
   margin-bottom: 0;
 }
+
+
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+.hero-text {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+  .hero-text h1 {
+    font-size: 7rem;
+  }
+  .tagline {
+    text-transform: uppercase;
+  }
+  .blurb {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .blurb::after {
+    display: none;
+  }
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
+  .question-group {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .question-group::after {
+    display: none;
+  }
+
+  .question-group h3 {
+    text-align: left;
+  }
+  footer {
+    min-height: 7vh;
+  }
+}
